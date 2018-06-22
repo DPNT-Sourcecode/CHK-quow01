@@ -7,6 +7,7 @@ def checkout(skus):
     output = 0
     n = 1
 
+    res = [(i, skus.count(i)) for i in skus]
     
     if skus == "A":
 
