@@ -27,6 +27,12 @@ def checkout(skus):
         n1 = result["B"] / 2
         n2 = result["B"] % 2
         output = 45*n1 + n2*30
+    elif result["C"]:
+        output = 20*result["C"]
+    elif result["C"]:
+        output = 15 * result["D"]
+    elif skus == "":
+        output = 0
 
     else:
         return -1
