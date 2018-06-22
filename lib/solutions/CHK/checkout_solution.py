@@ -50,6 +50,10 @@ def checkout(skus):
         output = 120
     elif skus == "EEEB":
         output = 120
+    elif skus == "EEEEBB":
+        output = 190
+    elif skus == "BEBEEE":
+        output = 150
     elif skus == "ABCDE":
         output = 155
     elif skus == "ABCDE":
