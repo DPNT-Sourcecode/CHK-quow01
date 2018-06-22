@@ -3,6 +3,9 @@
 # noinspection PyUnusedLocal
 # skus = unicode string
 def checkout(skus):
+
+
+
     if skus == "A":
         output = 50
     elif skus == "B":
