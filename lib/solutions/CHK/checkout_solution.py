@@ -5,7 +5,7 @@
 def checkout(skus):
 
     output = 0
-    n = 0
+    n = 1
     # result = {}
     # for i in skus[0]:
     #     n +=1
