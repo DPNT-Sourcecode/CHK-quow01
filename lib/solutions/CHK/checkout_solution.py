@@ -8,29 +8,39 @@ def checkout(skus):
     n = 1
 
     result = dict((i, skus.count(i)) for i in skus)
+    print(result)
 
-    output = result[""]
+    if result["A"] >= 3:
+        n = result["A"] % 3
+        output = 130 + n*50
+    elif result["A"] < 3:
 
-    if skus == "A":
+        output = result["A"]*50
+    elif result["B"] >= 2:
+        n = result["B"] % 2
 
-        output = 50
-    elif skus == "B":
-        output = 30
 
-    elif skus == "C":
-        output = 20*n
-    elif skus == "D":
-        output = 15*n
-    elif skus == "":
-        output = 0
-    elif skus == "AAA":
-        output = 130
-    elif skus == "ABCD":
-        output = 115
-    elif skus == "AA":
-        output = 100
-    elif skus == "BB":
-        output = 45
+
+    # if skus == "A":
+    #
+    #     output = 50
+    # elif skus == "B":
+    #     output = 30
+    #
+    # elif skus == "C":
+    #     output = 20*n
+    # elif skus == "D":
+    #     output = 15*n
+    # elif skus == "":
+    #     output = 0
+    # elif skus == "AAA":
+    #     output = 130
+    # elif skus == "ABCD":
+    #     output = 115
+    # elif skus == "AA":
+    #     output = 100
+    # elif skus == "BB":
+    #     output = 45
     else:
         return -1
 
