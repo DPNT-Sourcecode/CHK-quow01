@@ -7,8 +7,10 @@ def checkout(skus):
     output = 0
     n = 1
 
-    res = [(i, skus.count(i)) for i in skus]
-    
+    result = dict((i, skus.count(i)) for i in skus)
+
+    output = result[""]
+
     if skus == "A":
 
         output = 50
