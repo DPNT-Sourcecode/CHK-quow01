@@ -4,7 +4,9 @@
 # skus = unicode string
 def checkout(skus):
 
-
+    nb_a = skus.count("A")
+    nb_b = skus.count("B")
+    nb_c = skus.count("C")
 
     if skus == "A":
         output = 50
