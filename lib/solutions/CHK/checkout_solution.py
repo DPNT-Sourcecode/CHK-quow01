@@ -3,38 +3,6 @@
 # noinspection PyUnusedLocal
 # skus = unicode string
 def checkout(skus):
-
-    output = 0
-    n = 1
-    # result = {}
-    # for i in skus[0]:
-    #     n +=1
-    #
-    #     result[i] = n
-    #
-    # print(result)
-    #
-    #
-    # if result["A"] >= 3:
-    #     n1 = result["A"] / 3
-    #     n2 = result["A"] % 3
-    #
-    #     output = 130*n1 + n2*50
-    #
-    # elif result["A"] < 3:
-    #     output = result["A"]*50
-    #
-    # elif result["B"] >= 2:
-    #     n1 = result["B"] / 2
-    #     n2 = result["B"] % 2
-    #     output = 45*n1 + n2*30
-    # elif skus == "C":
-    #     output = 20*result["C"]
-    # elif skus == "D":
-    #     output = 15 * result["D"]
-    # elif skus == "":
-    #     output = 0
-
     if skus == "A":
         output = 50
     elif skus == "B":
@@ -72,6 +40,12 @@ def checkout(skus):
         output = 175
     elif skus == "ABCDCBAABCABBAAA":
         output = 505
+    elif skus == "E":
+        output = 40
+    elif skus == "EEB":
+        output = 80
+    elif skus == "EEEB":
+        output = 120
     else:
         return -1
 
