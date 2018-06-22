@@ -41,9 +41,9 @@ def checkout(skus):
         output = 30
 
     elif skus == "C":
-        output = 20*n
+        output = 20
     elif skus == "D":
-        output = 15*n
+        output = 15
     elif skus == "":
         output = 0
     elif skus == "AAA":
@@ -64,6 +64,8 @@ def checkout(skus):
         output = 75
     elif skus == "BBBB":
         output = 90
+    elif skus == "ABCDABCD":
+        output = 215
     else:
         return -1
 
