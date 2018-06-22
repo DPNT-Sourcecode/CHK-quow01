@@ -6,13 +6,15 @@ def checkout(skus):
 
     output = 0
     n = 0
-    res = {}
+    result = {}
     for i in skus[0]:
         n +=1
-    
+
+        result[i] = n
 
 
-    result = dict((i, 1+= res) for i in skus[0])
+
+    # result = dict((i, 1+= res) for i in skus[0])
 
     print(result)
 
