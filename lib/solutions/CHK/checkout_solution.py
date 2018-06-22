@@ -11,13 +11,20 @@ def checkout(skus):
     print(result)
 
     if result["A"] >= 3:
-        n = result["A"] % 3
-        output = 130 + n*50
-    elif result["A"] < 3:
+        n1 = result["A"] / 3
+        n2 = result["A"] % 3
 
+        output = 130*n1 + n2*50
+
+    elif result["A"] < 3:
         output = result["A"]*50
+
     elif result["B"] >= 2:
-        n = result["B"] % 2
+        n1 = result["B"] / 2
+        n2 = result["B"] % 2
+        output = 45*n1 + n2*30
+
+
 
 
 
