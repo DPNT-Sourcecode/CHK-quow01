@@ -1,5 +1,5 @@
 # noinspection PyShadowingBuiltins,PyUnusedLocal
 def compute(x, y):
-    
-    return x +y
-    raise NotImplementedError()
+    if x >= 100 and y >= 100:
+        return x +y
+
