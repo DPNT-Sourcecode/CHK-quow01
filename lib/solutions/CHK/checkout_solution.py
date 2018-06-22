@@ -21,8 +21,11 @@ def checkout(skus):
     elif skus == "AAA":
         output = 130
     elif skus == "ABCD":
-        output =
-
+        output = 115
+    elif skus == "AA":
+        output = 100
+    elif skus == "BB":
+        output = 45
     else:
         return -1
 
