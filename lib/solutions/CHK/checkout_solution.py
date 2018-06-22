@@ -5,9 +5,11 @@
 def checkout(skus):
 
     output = 0
-    n = 1
+    res = {}
 
-    result = dict((i, skus.count(i)) for i in skus)
+    result = dict((i, res + +) for i in skus)
+    
+    result = dict()
     print(result)
 
     if result["A"] >= 3:
