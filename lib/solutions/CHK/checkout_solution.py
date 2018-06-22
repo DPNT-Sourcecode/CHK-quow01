@@ -8,14 +8,16 @@ def checkout(skus):
     n = 1
     if skus == "A":
 
-        output = 130
+        output = 50
     elif skus == "B":
-        output = 45
+        output = 30
 
     elif skus == "C":
         output = 20*n
     elif skus == "D":
         output = 15*n
+    elif skus == "":
+        output = 0
     else:
         return -1
 
