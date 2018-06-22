@@ -7,6 +7,7 @@ def checkout(skus):
     output = 0
     n = 1
 
+    
     if skus == "A":
 
         output = 50
