@@ -12,10 +12,6 @@ def checkout(skus):
 
         result[i] = n
 
-
-
-    # result = dict((i, 1+= res) for i in skus[0])
-
     print(result)
 
     if result["A"] >= 3:
