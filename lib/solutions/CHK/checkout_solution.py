@@ -5,11 +5,15 @@
 def checkout(skus):
 
     output = 0
+    n = 0
     res = {}
-
-    result = dict((i, res + +) for i in skus)
+    for i in skus[0]:
+        n +=1
     
-    result = dict()
+
+
+    result = dict((i, 1+= res) for i in skus[0])
+
     print(result)
 
     if result["A"] >= 3:
