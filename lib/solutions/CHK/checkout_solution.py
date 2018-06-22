@@ -31,8 +31,8 @@ def checkout(skus):
         output = 20*result["C"]
     elif result["C"]:
         output = 15 * result["D"]
-    elif skus == "":
-        output = 0
+    # elif skus == "":
+    #     output = 0
 
     else:
         return -1
